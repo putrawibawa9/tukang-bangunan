@@ -1,0 +1,105 @@
+body {
+    font-family: "Inter", sans-serif;
+  }
+  
+  * {
+    z-index: 2;
+  }
+  
+  .kiri {
+    background-image: url("../images/bg-login.png");
+    background-size: cover;
+    padding-left: 100px;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  #mainkonten {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* bagian hero mulai */
+  #hero {
+    color: black;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .hero-tagline h1 {
+    color: #fff;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .hero-tagline h3 {
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+  
+  .gambar-hero {
+    z-index: 1;
+  }
+  
+  .form-input h2 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  
+  .form-input label {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .form-input input {
+    width: 501px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 4px solid #23512f;
+    background-color: white;
+  }
+  
+  .form-input button {
+    color: #23512f;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 501px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 4px solid #23512f;
+    background-color: white;
+  }
+  
+  .form-input h4 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  /* bagian hero selesai */
+  

@@ -1,0 +1,123 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+    63deg,
+    #e7e7e7 31.06%,
+    rgba(130, 194, 147, 0.7) 110.95%
+  );
+}
+
+* {
+  z-index: 2;
+}
+
+/* bagian navbar mulai */
+nav {
+  z-index: 3;
+}
+
+/* .navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+} */
+
+.nav-link.active {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-link:hover {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-item {
+  margin: 50px;
+}
+/* bagian navbar selesai */
+
+/* bagian hero mulai */
+#hero {
+  color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-tagline h2 {
+  color: #000;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hero-tagline h3 {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-tagline h4 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.gambar-hero {
+  z-index: 1;
+}
+
+.button-hero {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  width: 170px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #23512f;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button-hero:hover {
+  background-color: #048853;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+/* bagian hero selesai */

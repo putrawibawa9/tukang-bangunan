@@ -1,0 +1,80 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: rgba(35, 81, 46, 0.66);
+  }
+  
+  * {
+    z-index: 2;
+  }
+  
+  /* bagian navbar mulai */
+  nav {
+    z-index: 3;
+    background: rgb(35, 81, 46);
+    position: relative;
+  }
+  .navbar .nav-item.active {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 27px;
+    background: linear-gradient(
+      260deg,
+      #d38d74 -180.39%,
+      rgba(17, 77, 33, 0.66) 104.51%
+    );
+    /* width: 94px; */
+    height: 41px;
+    flex-shrink: 0;
+  }
+  
+  .navbar .nav-item:hover {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 27px;
+    background: linear-gradient(
+      260deg,
+      #d38d74 -180.39%,
+      rgba(17, 77, 33, 0.66) 104.51%
+    );
+    /* width: 94px; */
+    /* height: 41px; */
+    flex-shrink: 0;
+  }
+  
+  .navbar .nav-link {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  /* bagian navbar selesai */
+  
+  /* bagian hero mulai */
+  #hero {
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    /* padding-top: 150px; */
+    z-index: 2;
+    position: relative;
+    /* padding-bottom: 20px; */
+  }
+
+  #hero .nav-link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #hero .nav-link.active {
+    text-decoration: none;
+    color: #000000;
+  }

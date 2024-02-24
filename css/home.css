@@ -1,0 +1,215 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: rgba(35, 81, 46, 0.66);
+}
+
+* {
+  z-index: 2;
+}
+
+/* bagian navbar mulai */
+nav {
+  z-index: 3;
+}
+.nav-item.active {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 27px;
+  background: linear-gradient(
+    260deg,
+    #d38d74 -180.39%,
+    rgba(17, 77, 33, 0.66) 104.51%
+  );
+  /* width: 94px; */
+  height: 41px;
+  flex-shrink: 0;
+}
+
+.nav-item:hover {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 27px;
+  background: linear-gradient(
+    260deg,
+    #d38d74 -180.39%,
+    rgba(17, 77, 33, 0.66) 104.51%
+  );
+  /* width: 94px; */
+  /* height: 41px; */
+  flex-shrink: 0;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* bagian navbar selesai */
+
+/* bagian hero mulai */
+#hero {
+  color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.atas {
+  display: flex;
+  justify-content: center;
+}
+
+.atas .card {
+  min-height: 327px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  border: none;
+  background: linear-gradient(
+    93deg,
+    rgba(35, 81, 47, 0.66) -2.18%,
+    #ecd5cd 75.15%
+  );
+}
+
+.atas .kiri h2 {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.atas .kiri h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.atas .kiri h3 span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.atas .kiri p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.atas .kiri .info {
+  border-radius: 22px;
+  background: #d9d9d9;
+  width: 488px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.atas .kiri .info h3 {
+  color: #7b937e;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.atas .kanan-1 {
+  background-image: url("../images/kolam.png");
+  background-size: cover;
+}
+.atas .kanan-2 {
+  background-image: url("../images/kandang ayam.jpg");
+  background-size: cover;
+}
+.atas .kanan-3 {
+  background-image: url("../images/hotel.jpg");
+  background-size: cover;
+  /* margin-left: 0px; */
+}
+.atas .kanan-4 {
+  background-image: url("../images/bale.jpg");
+  background-size: cover;
+}
+
+.bawah .card {
+  border: none;
+  border-radius: 26px;
+  background: linear-gradient(
+    141deg,
+    rgba(200, 191, 179, 0.77) 22.18%,
+    rgba(50, 95, 62, 0.51) 48.62%,
+    rgba(35, 81, 47, 0.59) 82.4%,
+    rgba(0, 0, 0, 0) 141.3%
+  );
+}
+
+.bawah .raw img {
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.bawah .raw h3 {
+  margin-top: 5px;
+  color: #fff;
+}
+
+.bawah .raw h5 {
+  margin-bottom: 1px;
+  color: #fff;
+}
+
+.bawah .raw p {
+  margin-top: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.bawah .btn {
+  border-radius: 33px;
+  background: #fff;
+  color: #23512f;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+
+.bawah .btn:hover {
+  border-radius: 33px;
+  background: #54bd70;
+  color: #fff;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+
+.bawah .btn h6 {
+  margin-left: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* bagian hero selesai */
