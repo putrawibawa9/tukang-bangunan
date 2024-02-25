@@ -107,9 +107,9 @@ function upload(){
   return $namaFileBaru;
 }
 
-function hapusProduk($Id_produk){
+function hapusTukang($id){
   global $conn;
-  mysqli_query($conn,"DELETE FROM produk WHERE Id_produk = $Id_produk");
+  mysqli_query($conn,"DELETE FROM info_tukang WHERE id = $id");
   return mysqli_affected_rows($conn);
 }
 

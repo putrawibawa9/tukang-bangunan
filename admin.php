@@ -242,8 +242,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <th scope="col">No Hp</th>
                                 <th scope="col">No Rekening</th>
                                 <th scope="col">Harga</th>
-                                <th scope="col">Status</th>
                                 <th scope="col">Foto</th>
+                                <th scope="col">Tindakan</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -264,8 +264,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <td><?php echo $row["no_hp"]; ?></td>
                                     <td><?php echo $row["norek"]; ?></td>
                                     <td>Rp. <?php echo number_format($row["harga"],2, ',', '.') ?></td>
-                                    <td><?php echo $row["statuss"]; ?></td>
                                     <td><img src="images/<?php echo $row["foto_tukang"]; ?>" width="100px" height="100px"></td>
+                                    <td>
+                                      <a class="btn btn-md bg-danger" href="hapustukang.php?id=<?=$row['id'];?>" onclick="return confirm('yakin?');">Hapus</a>
+                                    </td>
                                 </tr>
                                 <?php
                             }
